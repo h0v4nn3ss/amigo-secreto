@@ -32,6 +32,7 @@ function mostrarAmigos() {
   }
 }
 
+// Funcion para sortear al amigo secreto
 function sortearAmigo() {
     if (amigos.length === 0) {
         alert("No hay amigos para sortear.");
